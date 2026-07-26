@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Favicon de Wallpari.tech - marca en cuadrado, legible a 16 px -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#0A1628"/>
+  <g transform="translate(103.13,321.81) scale(0.24285,-0.24285)">
+      <path fill="#FFFFFF" d="M190 0 -3 542H177L288 214L403 542H565L677 211L792 542H959L766 0H582L480 296L374 0Z"/>
+      <path fill="#00D4FF" d="M1117 137Q1077 137 1044.5 156.0Q1012 175 992.5 208.0Q973 241 973 283Q973 324 992.5 356.5Q1012 389 1044.5 408.0Q1077 427 1117 427Q1157 427 1190.0 408.0Q1223 389 1242.5 356.5Q1262 324 1262 283Q1262 241 1242.5 208.0Q1223 175 1190.0 156.0Q1157 137 1117 137Z"/>
+  </g>
+</svg>
