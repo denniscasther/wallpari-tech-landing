@@ -163,6 +163,12 @@ img{max-width:100%;display:block}
 .field textarea{resize:vertical}
 .contact__formnote{text-align:center;font-size:13px;color:var(--ink-dim);margin-top:14px}
 .contact__formnote a{color:var(--cyan)}
+/* Campo señuelo anti-spam: fuera de pantalla, nunca visible */
+.hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0;pointer-events:none}
+.form-status{margin-top:14px;padding:11px 14px;border-radius:10px;border:1px solid;font-size:14px;line-height:1.45;text-align:center}
+.form-status--ok{color:var(--teal);border-color:rgba(42,224,192,.42);background:rgba(42,224,192,.09)}
+.form-status--err{color:#ffab99;border-color:rgba(255,171,153,.42);background:rgba(255,171,153,.09)}
+.btn:disabled{opacity:.55;cursor:not-allowed}
 
 /* ===================================================================
    FOOTER

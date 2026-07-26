@@ -220,7 +220,10 @@
         <label for="mensaje">Cuéntanos tu proyecto</label>
         <textarea id="mensaje" name="mensaje" rows="4" placeholder="Describe brevemente tu idea..."></textarea>
       </div>
-      <button type="submit" class="btn btn--full">Enviar solicitud</button>
+      <!-- Anti-spam: campo señuelo, invisible para personas y sólo lo rellenan los bots -->
+      <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button type="submit" class="btn btn--full" id="formSubmit">Enviar solicitud</button>
+      <p class="form-status" id="formStatus" role="status" aria-live="polite" hidden></p>
       <p class="contact__formnote">También puedes escribirnos directo por <a href="#" data-wa-plain>WhatsApp</a>.</p>
     </form>
   </div>
