@@ -22,21 +22,16 @@ Portafolio (mockups) · Nosotros (origen quechua) · Contacto (WhatsApp + formul
 
 - **Portafolio** — las 4 tarjetas de `index.html` (sección `#portafolio`) son ejemplos ilustrativos. Reemplázalas por proyectos reales cuando los tengas.
 
-- **ID de Formspree** — en `js/main.js`, variable `FORMSPREE_ID` (ver abajo).
-
 El WhatsApp ya está configurado en `js/main.js` (`WA_NUMBER = "51923696270"`); ese número alimenta todos los botones de WhatsApp del sitio.
 
 ## Formulario de contacto (Formspree)
 
-El formulario envía por **Formspree**, sin necesidad de servidor propio. Para activarlo:
+El formulario envía por **Formspree** (sin servidor propio) y **ya está activo**:
+`FORMSPREE_ID = "mdaqpjql"` en `js/main.js` → <https://formspree.io/f/mdaqpjql>.
 
-1. Crea una cuenta gratis en <https://formspree.io> (plan free: 50 envíos/mes).
-2. **New form** → destino `contacto@wallpari.pe` → copia la URL que te da, del tipo
-   `https://formspree.io/f/xriyaqbz`.
-3. En `js/main.js` pon **sólo el ID** (lo que va después de `/f/`):
-   `const FORMSPREE_ID = "xriyaqbz";`
-4. `git add -A && git commit -m "Activa Formspree" && git push` — GitHub Pages se actualiza solo.
-5. El primer envío llega con un correo de confirmación de Formspree: confírmalo y listo.
+Para cambiar el correo que recibe los mensajes, hazlo desde el panel de Formspree — no hace falta
+tocar el código. Si algún día cambias de formulario, reemplaza sólo el ID (lo que va después de `/f/`)
+y haz `git push`; GitHub Pages se actualiza solo. El plan free admite 50 envíos al mes.
 
 Detalles de la implementación:
 - Envío por `fetch` sin recargar la página, con mensaje de éxito/error debajo del botón.

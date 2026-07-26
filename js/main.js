@@ -8,10 +8,10 @@ const WA_NUMBER = "51923696270";
 const WA_MENSAJE = "Hola Wallpari 👋, quiero cotizar un proyecto.";
 const EMAIL = "contacto@wallpari.pe";
 
-/* ID del formulario en Formspree — es la última parte de la URL que te da
-   Formspree: https://formspree.io/f/XXXXXXXX  →  copia sólo el XXXXXXXX.
-   Mientras diga TU_ID_FORMSPREE, el formulario sigue funcionando por correo. */
-const FORMSPREE_ID = "TU_ID_FORMSPREE";
+/* ID del formulario en Formspree (https://formspree.io/f/mdaqpjql).
+   Si se deja vacío o con el texto TU_ID_FORMSPREE, el formulario cae
+   automáticamente al método de respaldo por correo. */
+const FORMSPREE_ID = "mdaqpjql";
 
 /* ---- Enlaces de WhatsApp ---- */
 (function initWhatsApp(){
