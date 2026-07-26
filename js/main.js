@@ -2,9 +2,9 @@
    Wallpari.tech — Landing JS
    =================================================================== */
 
-/* 🔴 IMPORTANTE: reemplaza este número por el WhatsApp real de Wallpari.
-   Formato internacional sin "+" ni espacios. Ej. Perú: 51987654321 */
-const WA_NUMBER = "51999999999";
+/* WhatsApp de Wallpari, en formato internacional sin "+" ni espacios
+   (51 = Perú + 923696270). */
+const WA_NUMBER = "51923696270";
 const WA_MENSAJE = "Hola Wallpari 👋, quiero cotizar un proyecto.";
 const EMAIL = "contacto@wallpari.pe";
 

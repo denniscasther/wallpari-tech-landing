@@ -18,10 +18,11 @@ wallpari-tech-landing/
 Navbar · Hero · Tira de servicios · Servicios · Producto IA (4 agentes) · Proceso ·
 Portafolio (mockups) · Nosotros (origen quechua) · Contacto (WhatsApp + formulario) · Footer · Botón flotante de WhatsApp.
 
-## ⚠️ Antes de publicar — 2 cosas por editar
+## ⚠️ Pendiente
 
-1. **Número de WhatsApp** — en `js/main.js`, línea de `WA_NUMBER`. Ponlo en formato internacional sin `+` ni espacios (ej. Perú: `51987654321`). Ese número alimenta todos los botones de WhatsApp.
-2. **Portafolio** — las 4 tarjetas de `index.html` (sección `#portafolio`) son ejemplos ilustrativos. Reemplázalas por proyectos reales cuando los tengas.
+- **Portafolio** — las 4 tarjetas de `index.html` (sección `#portafolio`) son ejemplos ilustrativos. Reemplázalas por proyectos reales cuando los tengas.
+
+El WhatsApp ya está configurado en `js/main.js` (`WA_NUMBER = "51923696270"`); ese número alimenta todos los botones de WhatsApp del sitio.
 
 Opcional: el formulario abre el correo del visitante hacia `contacto@wallpari.pe` (funciona sin servidor). Si quieres recibir los mensajes sin depender del correo del cliente, se puede conectar a un servicio como **Formspree** (te lo dejo listo si quieres).
 
