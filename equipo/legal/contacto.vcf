@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Urbay;Erick;;;
+FN:Erick Alcántara Urbay
+ORG:Wallpari
+TITLE:Gerente Legal
+EMAIL;TYPE=WORK:legal@wallpari.pe
+TEL;TYPE=CELL:+51923696270
+URL:https://wallpari.pe/equipo/legal/
+ADR;TYPE=WORK:;;Lima;;;;Perú
+NOTE:Página oficial verificable: https://wallpari.pe/equipo/legal/
+END:VCARD

@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Armas;José;;;
+FN:José Andrés Armas
+ORG:Wallpari
+TITLE:Gerente Comercial
+EMAIL;TYPE=WORK:andres@wallpari.pe
+TEL;TYPE=CELL:+51923696270
+URL:https://wallpari.pe/equipo/andres/
+ADR;TYPE=WORK:;;Lima;;;;Perú
+NOTE:Página oficial verificable: https://wallpari.pe/equipo/andres/
+END:VCARD
